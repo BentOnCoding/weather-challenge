@@ -18,7 +18,5 @@ exports.getWeatherDataAsync = function (weatherRequestConfig) {
 
     });
 
-
-
 };
 

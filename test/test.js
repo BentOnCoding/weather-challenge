@@ -12,7 +12,7 @@ describe('WwoWeatherRepository', function () {
                 startDate: "12/01/2016"
             }
 
-            dataProvider.getWeatherDataAsync(weatherConfig, function (weatherData) {
+            dataProvider.getWeatherDataAsync(weatherConfig).then(function (weatherData) {
 
                 assert(weatherData);
 
